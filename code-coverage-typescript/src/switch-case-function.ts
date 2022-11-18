@@ -1,6 +1,6 @@
 export class SwitchCaseFunction {
     public checkStatus(color: string): string {
-        let status;
+        let status = '';
         switch (color) {
             case 'GREEN':
                 status = 'OK'
