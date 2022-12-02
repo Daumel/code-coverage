@@ -11,7 +11,7 @@ import {Component, Input} from '@angular/core';
     </div>
   `,
 })
-export class NumberCheckerComponent {
+class NumberCheckerComponent {
   @Input() array: number[] = [];
   @Input() number: number = 0;
   count = 0;
@@ -26,3 +26,5 @@ export class NumberCheckerComponent {
     }
   }
 }
+
+export {NumberCheckerComponent};

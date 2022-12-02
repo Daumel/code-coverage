@@ -5,7 +5,7 @@ interface Props {
     number: number
 }
 
-export const NumberChecker: React.FC<Props> = ({array, number}) => {
+const NumberChecker: React.FC<Props> = ({array, number}) => {
     const [count, setCount] = React.useState(0);
     const [result, setResult] = React.useState('No result yet');
 
@@ -27,3 +27,5 @@ export const NumberChecker: React.FC<Props> = ({array, number}) => {
         </div>
     );
 };
+
+export {NumberChecker};
